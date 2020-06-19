@@ -53,7 +53,7 @@ const testSearch = () => {
   appendMessage = document.querySelector('#exampleFormControlTextarea1').value;
   const searchTerm = document.querySelector('.gifSearch').value;
   const api = 'https://api.giphy.com/v1/gifs/search?';
-  const apiKey = 'api_key=***api key here***';
+  const apiKey = 'api_key=***key here***';
   const query = `&q=$${searchTerm}$limit=10`;
   const url = api + apiKey + query;
 

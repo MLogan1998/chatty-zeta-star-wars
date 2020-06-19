@@ -8,15 +8,15 @@ const userAv = () => {
   const avatar = document.querySelector('input[type = radio]:checked').value;
   switch (avatar) {
     case 'obi1Kenobi':
-      return ('https://i.postimg.cc/K8swcbs4/obiwan.jpg');
+      return ('https://i.imgur.com/83RbTKC.png');
     case 'TheHighGround':
-      return ('https://i.postimg.cc/PrV2Y4bR/highground.jpg');
+      return ('https://i.imgur.com/KlHd6Lu.png');
     case 'hanShotFirst2019':
-      return ('https://i.postimg.cc/fLsKDgZJ/hanshotfirst.jpg');
+      return ('https://i.imgur.com/M060qGz.png');
     case 'jar-jarSuck2020':
-      return ('https://i.postimg.cc/qRQ80Jj5/jarjar.jpg');
+      return ('https://i.imgur.com/XHr1URo.jpg');
     case 'darksidehasCOOKI3S':
-      return ('https://i.postimg.cc/K8LBjr0L/cookies.jpg');
+      return ('https://i.imgur.com/8kQp4FT.png');
     default:
   }
 };
