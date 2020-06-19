@@ -2,27 +2,27 @@ const userData = [
   {
     id: 1,
     name: 'obi1Kenobi',
-    profilePicture: '../../../assets/images/Behance_individual12.png',
+    profilePicture: 'https://i.imgur.com/83RbTKC.png',
   },
   {
     id: 2,
     name: 'TheHighGround',
-    profilePicture: '../../../assets/images/Behance_individual2.png',
+    profilePicture: 'https://i.imgur.com/KlHd6Lu.png',
   },
   {
     id: 3,
     name: 'hanShotFirst2019',
-    profilePicture: '../../../assets/images/Behance_individual9.png',
+    profilePicture: 'https://i.imgur.com/M060qGz.png',
   },
   {
     id: 4,
     name: 'jar-jarSuck2020',
-    profilePicture: '../../../assets/images/83d7db32d44a068091370e66e3de1aeb.jpg',
+    profilePicture: 'https://i.imgur.com/XHr1URo.jpg',
   },
   {
     id: 5,
     name: 'darksidehasCOOKI3S',
-    profilePicture: '../../../assets/images/Behance_individual8.png',
+    profilePicture: 'https://i.imgur.com/8kQp4FT.png',
   },
 ];
 
