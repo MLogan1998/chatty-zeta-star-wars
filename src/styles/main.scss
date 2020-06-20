@@ -18,6 +18,8 @@ body{
     margin: 0 auto;
     background-color: $lightModeGrey;
     justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
 }
 
 #messageArea {
@@ -46,18 +48,20 @@ body{
     width: 118px;
     background-image: url("https://i.imgur.com/FeIAU2A.png");
 }
-
 .navButtons {
     display: flex;
-    align-items: center;
 }
+.accessibilityCheckboxes{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Dosis';
+} 
 
 .clearButton {
-    height: 60%;
-    width: 40%;
     border-radius: 30px;
     border: solid black 2px;
     margin-left: 20px;
+    text-align: center;
 }
 
 .messageInput {
@@ -147,3 +151,66 @@ textarea {
     .lrgTxt {
         font-size: x-large;
     }
+
+
+    @media only screen and (max-width: 600px) {
+    .avatar {
+        height: 46px;
+        width: 75px;
+        background-image: url("https://i.imgur.com/FeIAU2A.png");
+        background-size: contain;
+        margin: 0px;
+    }
+
+    #header {
+        height: 70px;
+        margin: 0 auto;
+        background-color: $lightModeGrey;
+        justify-content: space-evenly;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .accessibilityCheckboxes{
+        font-size: x-small;
+        font-weight: bold;
+        font-family: 'Dosis';
+    } 
+
+    .timestamp {
+        margin-right: 5px;
+        font-size: small;
+        line-height: 2;
+    }
+    
+    #messageArea {
+        padding: 10px;
+    }
+
+    .userName {
+        margin-right:9px;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Dosis';
+    }
+
+    #header, #messageArea, #inputArea {
+        width: 85%;
+    }
+
+    .selectUsers {
+        font-size: x-small;
+    }
+
+    #inputArea {
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+   .responsiveGif {
+        width: 75%;
+    }
+    
+ }

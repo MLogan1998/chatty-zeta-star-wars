@@ -17,7 +17,7 @@ const displayMessages = () => {
   const allow = document.querySelector('input[type = radio]:checked').value;
 
   for (let i = 0; i < messages.length; i += 1) {
-    const cleanTime = moment(messages[i].timestamp).format('MMMM Do, h:mm a');
+    const cleanTime = moment(messages[i].timestamp).format('h:mm a');
     domString += `
                 <div class="newMessage">
                 <div class="messageHead">
