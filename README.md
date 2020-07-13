@@ -24,13 +24,5 @@ The objective of the group project was to create a Star Wars themed chat app usi
 ![Light Mode](screenshots/readme1.jpg)
 ##### Darkside Mode
 ![Dark Mode](screenshots/readme2.jpg)
-##### Add Emoji
-![Emoji](screenshots/readme4.jpg)
-##### Search Gifs
-![Gifs](screenshots/readme3.jpg)
-#### Large Text / Remove / Edit / Timestamp
-![Features](screenshots/readme5.jpg)
-
-
-## How To Run:
-> Project is deployed at [https://logandevelopment.io/projects/star-wars-chat](https://logandevelopment.io/projects/star-wars-chat)
+##### Check It Out!
+![Features](screenshots/starchat.gif)
